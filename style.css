@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-all-center {
+    background-color:#317AE7;
+    color: black;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+header {
+    background-color: #317AE7;
+    color: rgb(13, 10, 10);
+
+}
+
+nav ul {
+    height: 12vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: rgb(180, 174, 174);
+    font-weight: bolder;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    height: 70px;
+    align-items: center;
+    display: flex;
+    padding: 0 22px;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+}
+.searchbar input{
+    width: 357px;
+    height: 30px;
+    border-radius: 6px;
+    margin: 14px;
+}
+.btn{
+    width: 56px;
+    background-color:white;
+    color: black;
+    border: 3px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.btn:hover{
+    color:black;
+    font-weight: bolder;
+}
+.slider{
+    margin: auto 17vw;
+    width: 90vw;
+    overflow: hidden;
+}
+.slider img{
+    width: 70vw;
+}
+.card-item img{
+    width: 126px;
+    margin: auto 123px;
+
+}
+.card h2{
+    margin: 35px 123px;
+}
+.lines{
+    margin:auto 123px;
+}
+.container {
+    min-height: auto;
+    margin-bottom: 40px;
+}
+.cardmy1{
+    margin:27px 0;
+}
+.text-center{
+    text-align: center;
+}
+.card-item{
+     width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.products-row{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cards{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: smoky whitesmoke
+}
+.cards h3{
+    margin: 65px 123px;
+}
+@media screen and (max-width:912px) {
+    body{
+        background-color: aqua;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+.card-item:hover{
+    background-color: rgb(227, 224, 224);
+    font-weight: bolder;
+}
